@@ -680,7 +680,7 @@ body.nav-active {
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 40px;
+  padding-block: 20px;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
@@ -1640,79 +1640,6 @@ textarea.input-field {
 
   .contact-number {
     --fontSize-body-1: 3rem;
-  }
-
-  /**
-   * TOPBAR
-   */
-
-  .topbar {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-block: 10px;
-    border-block-end: 1px solid var(--white-alpha-20);
-    z-index: 4;
-    transition: var(--transition-1);
-  }
-
-  .topbar:has(~ .header.active) {
-    transform: translateY(-100%);
-  }
-
-  .topbar-item:not(.link),
-  .topbar .separator {
-    display: none;
-  }
-
-  .topbar .container,
-  .topbar-item {
-    display: flex;
-    align-items: center;
-  }
-
-  .topbar .container {
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .topbar-item {
-    gap: 6px;
-  }
-
-  .topbar-item ion-icon {
-    --ionicon-stroke-width: 60px;
-  }
-
-  .topbar-item .span {
-    font-size: var(--fontSize-label-1);
-  }
-
-  .topbar .link {
-    transition: var(--transition-1);
-  }
-
-  .topbar .link:is(:hover, :focus-visible) {
-    color: var(--gold-crayola);
-  }
-
-  /**
-   * HEADER
-   */
-
-  .header {
-    top: 51px;
-  }
-
-  .header.active {
-    top: 0;
-  }
-
-  .header .btn {
-    display: block;
-    margin-inline-start: auto;
   }
 
   /**
