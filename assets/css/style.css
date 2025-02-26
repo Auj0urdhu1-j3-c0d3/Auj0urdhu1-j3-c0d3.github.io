@@ -1126,7 +1126,7 @@ body.nav-active {
 }
 
 .about-banner > .w-100 {
-  padding-inline-start: 50px;
+  padding-inline-start: 0px;
 }
 
 .about .abs-img {
@@ -1699,7 +1699,12 @@ textarea.input-field {
     gap: 80px;
   }
 
-  .about-banner > .w-100 {
+  .about-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .w-100 {
     padding-inline-start: 90px;
   }
 
